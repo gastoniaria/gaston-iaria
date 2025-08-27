@@ -4,228 +4,103 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Gastón Iaria - Desarrollador</title>
+  <title>Gastón Iaria - Desarrollador Backend</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: url('/5297078.jpg') no-repeat center center fixed;
-      background-size: cover;
-      color: #ffffff;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      padding: 40px 20px;
-      text-shadow: 1px 1px 2px #000;
-    }
-
-    header {
-      text-align: center;
-      margin-bottom: 40px;
-    }
-
-    header h1 {
-      font-size: 5rem;
-      color: #00ffbb;
-      margin-bottom: 10px;
-    }
-
-    header p {
-      font-size: 2rem;
-      color: #cccccc;
-    }
-
-    section {
-      max-width: 800px;
-      text-align: center;
-      margin-bottom: 40px;
-      background-color: rgba(0, 0, 0, 0.6);
-      padding: 20px;
-      border-radius: 16px;
-    }
-
-    section h2 {
-      font-size: 2rem;
-      color: #00ffbb;
-      margin-bottom: 20px;
-    }
-
-    section p {
-      font-size: 1rem;
-      line-height: 1.6;
-      color: #e0e0e0;
-    }
-
-    .tech-list {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-top: 20px;
-      gap: 12px;
-    }
-
-    .tech {
-      background: rgba(0, 255, 187, 0.9);
-      color: #1b1b1b;
-      padding: 10px 16px;
-      border-radius: 20px;
-      font-weight: bold;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 0.95rem;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-      box-shadow: 0 4px 10px rgba(0, 255, 187, 0.3);
-    }
-
-    .tech:hover {
-      transform: translateY(-5px) scale(1.03);
-      box-shadow: 0 8px 20px rgba(0, 255, 187, 0.5);
-    }
-
-    .tech i {
-      font-size: 1.2rem;
-    }
-
-    /* Estilos para la sección proyectos más chica */
-    section.projects {
-      max-width: 600px;
-      padding: 15px 20px;
-      margin-bottom: 30px;
-      background-color: rgba(0, 0, 0, 0.6);
-      border-radius: 16px;
-      text-align: center;
-    }
-
-    section.projects h2 {
-      font-size: 1.8rem;
-      color: #00ffbb;
-      margin-bottom: 15px;
-    }
-
-    section.projects p {
-      font-size: 1rem;
-      line-height: 1.5;
-      color: #e0e0e0;
-      margin-bottom: 12px;
-    }
-
-    section.projects p:last-child {
-      color: #00ffbb;
-    }
-
-    section.projects a {
-      color: #00ffbb;
-      font-weight: bold;
-      text-decoration: underline;
-    }
-
-    footer {
-      margin-top: 40px;
-      text-align: center;
-    }
-
-    .contact a {
-      color: #00ffbb;
-      text-decoration: none;
-      font-weight: bold;
-      margin: 0 10px;
-      font-size: 1.1rem;
-    }
-
-    .contact a i {
-      margin-right: 6px;
-    }
-
-    .contact a:hover {
-      text-decoration: underline;
-    }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 2rem;
-      }
-
-      section h2 {
-        font-size: 1.5rem;
-      }
-
-      .contact a {
-        display: block;
-        margin: 10px 0;
-      }
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <header>
-    <h1>Gastón Iaria</h1>
-    <p>Desarrollador Backend de Aplicaciones Web</p>
-  </header>
+  <div class="container">
+    <header class="fade-in">
+      <h1>Gastón Iaria</h1>
+      <p>Desarrollador Backend</p>
+      <p class="tagline">Creando soluciones robustas y eficientes con Node.js y MongoDB</p>
+    </header>
 
-  <section>
-    <h2>Sobre mí</h2>
-    <p>
-      Soy desarrollador enfocado en Backend con experiencia en Node.js, Express, MongoDB y JavaScript. Me especializo en crear
-      aplicaciones sólidas, eficientes y bien estructuradas, tanto para uso comercial como para productos personales.
-      Me enfoco en escribir código claro, modular y fácil de mantener.
-    </p>
-  </section>
+    <section>
+      <div class="section-content fade-in delay-1 reveal">
+        <h2>Sobre mí</h2>
+        <p>
+          Soy desarrollador backend especializado en Node.js, Express y MongoDB. Mi pasión es crear aplicaciones sólidas, 
+          eficientes y bien estructuradas que resuelvan problemas reales. Me enfoco en escribir código limpio, modular 
+          y fácil de mantener, priorizando siempre la calidad y el rendimiento.
+        </p>
+        <p>
+          Mi experiencia abarca desde APIs RESTful hasta sistemas complejos con autenticación JWT y bases de datos NoSQL. 
+          Disfruto enfrentando nuevos desafíos y aprendiendo tecnologías que me permitan mejorar mis desarrollos.
+        </p>
+      </div>
+    </section>
 
-  <section>
-    <h2>Tecnologías que manejo</h2>
-    <div class="tech-list">
-      <div class="tech"><i class="fab fa-node-js"></i>Node.js</div>
-      <div class="tech"><i class="fas fa-server"></i>Express</div>
-      <div class="tech"><i class="fas fa-database"></i>MongoDB</div>
-      <div class="tech"><i class="fas fa-plug"></i>API REST</div>
-      <div class="tech"><i class="fab fa-html5"></i>HTML</div>
-      <div class="tech"><i class="fab fa-css3-alt"></i>CSS</div>
-      <div class="tech"><i class="fab fa-js"></i>JavaScript</div>
+    <section>
+      <div class="section-content fade-in delay-2 reveal">
+        <h2>Tecnologías</h2>
+        <div class="tech-list">
+          <div class="tech"><i class="fab fa-node-js"></i>Node.js</div>
+          <div class="tech"><i class="fas fa-server"></i>Express</div>
+          <div class="tech"><i class="fas fa-database"></i>MongoDB</div>
+          <div class="tech"><i class="fas fa-plug"></i>API REST</div>
+          <div class="tech"><i class="fab fa-js"></i>JavaScript</div>
+          <div class="tech"><i class="fas fa-shield-alt"></i>JWT</div>
+          <div class="tech"><i class="fab fa-git-alt"></i>Git</div>
+          <div class="tech"><i class="fas fa-cloud"></i>Deployment</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="section-content fade-in delay-3 reveal">
+        <h2>Proyectos</h2>
+        
+        <div class="project-card">
+          <h3>Home Banking</h3>
+          <p>
+            Sistema bancario desarrollado con Node.js, Express y MongoDB. La aplicación permite a los usuarios realizar 
+            transferencias, consultar movimientos, comprar dólares y administrar cuentas con alta seguridad.
+          </p>
+          <p>
+            Incluye endpoints REST para operaciones financieras, validaciones robustas, autenticación JWT, 
+            y una arquitectura modular para facilitar el mantenimiento y escalabilidad.
+          </p>
+          <a href="https://github.com/gastoniaria/ProbandoJwtMvc" target="_blank" class="project-link">
+            Ver proyecto en GitHub <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="project-card">
+          <h3>Más proyectos</h3>
+          <p>
+            Constantemente estoy trabajando en nuevos proyectos y mejorando mis habilidades. Visita mi perfil de GitHub 
+            para conocer más sobre mis trabajos y contribuciones al código abierto.
+          </p>
+          <a href="https://github.com/gastoniaria" target="_blank" class="project-link">
+            Mi perfil de GitHub <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <div class="contact">
+      <p>¿Interesado en trabajar juntos?</p>
+      <div class="social-links">
+        <a href="mailto:iariagaston@gmail.com" class="social-link">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/gaston-iaria-514b6123b/" target="_blank" class="social-link">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://github.com/gastoniaria" target="_blank" class="social-link">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <p class="copyright">© 2023 Gastón Iaria. Todos los derechos reservados.</p>
     </div>
-  </section>
-
-  <section class="projects">
-    <h2 style="color: #00ffbb; font-size: 1.8rem; text-align: center; margin-bottom: 10px;">
-    Proyectos
-  </h2>
-    <p>
-      <strong>Home Banking</strong>
-    </p> Uno de mis proyectos destacados es un sistema de desarrollado con Node.js, Express, MongoDB.
-    La aplicación permite a los usuarios realizar transferencias, consultar movimientos, comprar dólares, y administrar
-    cuentas bancarias con alta seguridad.
-    </p>
-    <p>
-      El sistema cuenta con endpoints REST para cada operación financiera, validaciones robustas con middleware, manejo
-      de sesiones con JWT, y una arquitectura modular para facilitar mantenimiento y escalabilidad.
-    </p>
-    <p>
-      También incluye notificaciones y registro detallado de transacciones, buscando brindar una experiencia de usuario
-      eficiente y confiable.
-    </p>
-    <p>
-      Podés ver el código y más detalles en mi repositorio de GitHub:
-      <a href="https://github.com/gastoniaria/ProbandoJwtMvc"
-        target="_blank">https://github.com/gastoniaria/ProbandoJwtMvc</a>
-    </p>
-  </section>
-
-  <footer class="contact">
-    <p>¿Querés contactarme o ver mi trabajo?</p>
-    <a href="mailto:iariagaston@gmail.com"><i class="fas fa-envelope"></i>iariagaston@gmail.com</a> |
-    <a href="https://www.linkedin.com/in/gaston-iaria-514b6123b/" target="_blank"><i
-        class="fab fa-linkedin"></i>LinkedIn</a> |
-    <a href="https://github.com/gastoniaria" target="_blank"><i class="fab fa-github"></i>GitHub</a>
   </footer>
+
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
